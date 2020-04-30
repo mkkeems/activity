@@ -1,0 +1,49 @@
+.notification{
+  height: 80px;
+  display: flex;
+  padding: 8px;
+  margin: 4px 0;
+  box-shadow: 0px 0px 8px 0px #c2c2c2;
+}
+
+.activity-text{
+  padding: 15px;
+  position: relative;
+  width: 100%;
+
+}
+
+.activity-text:hover .notifi-action{
+    transition: 0.3s;
+    opacity: 1;
+
+}
+
+.notifi-action{
+  opacity: 0;
+  position: absolute;
+  right: 10px;
+  top: 30px;
+}
+
+.notifi-action a{
+  font-size: 14px;
+  color: #858585;
+}
+
+.notifi-action a:hover{
+  color: rgb(34, 34, 34);
+  transition: 0.3s;
+}
+
+.activity-text p, h4{
+  margin-top:0;
+  margin-bottom: 3px;
+}
+
+.date{
+  color: #858585;
+  font-size: 14px;
+  font-weight: bold;
+}
+
